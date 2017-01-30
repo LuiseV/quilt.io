@@ -4,16 +4,16 @@
 
 .landing {
 	text-align: left;
-	/*margin-left: 8em;*/
 }
 
 h3 {
 	font-weight: bold;
+	font-size: 120%;
 }
 
 .landing .landing-title h1 {
 	font-family: 'Molengo';
-	margin-top: 1em;
+	margin-top: 0.5em;
 	font-size: 1000%;
 }
 
@@ -48,16 +48,25 @@ h3 {
 
 .details .info {
 	margin-bottom: 2em;
-	/*border: 1em;*/
 	font-size: 120%;
-	/*padding-right: 4em;
-	padding-top: 1em;
-	padding-bottom: 1em;*/
-	/*color: white;*/
 }
 
-/*.classWithPad {
-	background-color: green;
-	height: auto;
-	padding:1em;
-}*/
+.btn {
+	background-color: #80bd9e;
+	text-transform: uppercase;
+	border: #80bd9e;
+	color: white;
+	padding: 18px 28px;
+}
+
+.btn a {
+	color: white;
+}
+
+.get-started {
+	margin-top: 3em;
+}
+
+body {
+	padding-bottom: 80px;
+}

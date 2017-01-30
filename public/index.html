@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="/css/index.css">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Molengo" />
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -30,7 +30,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="collapsed-bar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="https://www.github.com/netSys/quilt">Github</a></li>
+        <li><a href="https://www.github.com/netSys/quilt"><i class="fa fa-github" aria-hidden="true"></i> View Source</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -55,14 +55,23 @@
           </div>
 
           <div class="col-xs-12 col-sm-4 info">
-            <h3>Infrastructure with JavaScript</h3>
-            This is one column. This is one column. This is one column. This is one column. This is one column. This is one column. This is one column.
+            <h3>Develop Services Independently</h3>
+            Treating each subsystem (e.g. MongoDB or ElasticSearch) as a seperate module allows you to create services separately and easily compose them through APIs that expose dependencies while hiding low-level details.
           </div>
 
           <div class="col-xs-12 col-sm-4 info">
-            This is one column. This is one column. This is one column. This is one column. This is one column. This is one column. This is one column. This is one column. This is one column. This is one column. This is one column. This is one column. This is one column. This is one column.
+            <h3>Share and Reuse</h3>
+            Import any Quilt specifications posted on GitHub and compose them to create your own infrastructure. No need to reinvent the wheel and reimplement services that have been deployed thousands of times already.
           </div>
 
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="get-started text-center">
+          <button type="button" class="btn btn-lg">
+            <a href="https://github.com/NetSys/quilt/blob/master/docs/GettingStarted.md">Get Started</a>
+          </button>
         </div>
       </div>
     </div>
