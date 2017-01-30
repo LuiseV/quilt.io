@@ -1,0 +1,63 @@
+* {
+  font-family:'Open Sans';
+}
+
+.landing {
+	text-align: left;
+	/*margin-left: 8em;*/
+}
+
+h3 {
+	font-weight: bold;
+}
+
+.landing .landing-title h1 {
+	font-family: 'Molengo';
+	margin-top: 1em;
+	font-size: 1000%;
+}
+
+.navbar-brand {
+    height: 30%;
+    width: 30%;
+}
+
+.glyphicon {
+    font-size: 25px;
+}
+
+.description {
+	margin-top: 1em;
+   	word-wrap: break-word;
+   	font-size: 150%;
+}
+
+.icon-bar {
+	color: black;
+}
+
+.navbar-default {
+	background-color: white;
+	border-color: white;
+  	box-shadow: none;
+}
+
+.details {
+	margin-top: 6em;
+}
+
+.details .info {
+	margin-bottom: 2em;
+	/*border: 1em;*/
+	font-size: 120%;
+	/*padding-right: 4em;
+	padding-top: 1em;
+	padding-bottom: 1em;*/
+	/*color: white;*/
+}
+
+/*.classWithPad {
+	background-color: green;
+	height: auto;
+	padding:1em;
+}*/
