@@ -2,53 +2,8 @@
   font-family:'Open Sans';
 }
 
-.landing {
-	text-align: left;
-}
-
-h3 {
-	font-weight: bold;
-	font-size: 120%;
-}
-
-.landing .landing-title h1 {
-	font-family: 'Molengo';
-	margin-top: 0.5em;
-	font-size: 1000%;
-}
-
-.navbar-brand {
-    height: 30%;
-    width: 30%;
-}
-
-.glyphicon {
-    font-size: 25px;
-}
-
-.description {
-	margin-top: 1em;
-   	word-wrap: break-word;
-   	font-size: 150%;
-}
-
-.icon-bar {
-	color: black;
-}
-
-.navbar-default {
-	background-color: white;
-	border-color: white;
-  	box-shadow: none;
-}
-
-.details {
-	margin-top: 6em;
-}
-
-.details .info {
-	margin-bottom: 2em;
-	font-size: 120%;
+body {
+	padding-bottom: 80px;
 }
 
 .btn {
@@ -59,14 +14,52 @@ h3 {
 	padding: 18px 28px;
 }
 
-.btn a {
-	color: white;
+.description {
+	margin-top: 1em;
+   	word-wrap: break-word;
+   	font-size: 150%;
 }
 
-.get-started {
+.details {
 	margin-top: 3em;
 }
 
-body {
-	padding-bottom: 80px;
+.details .info {
+	margin-bottom: 2em;
+	font-size: 120%;
 }
+
+.get-started {
+	margin-top: 1em;
+}
+
+.get-started-btn a {
+	color: white;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.landing {
+	text-align: left;
+}
+
+.landing .landing-title h1 {
+	font-family: 'Molengo';
+	/*margin-top: 0.5em;*/
+	font-size: 1000%;
+}
+
+.navbar-default {
+	background-color: white;
+	border-color: white;
+  	box-shadow: none;
+}
+
+
+
+
+
+
