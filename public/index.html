@@ -14,14 +14,36 @@
 
     <script> 
       $(function(){
-        $("#header").load("includes/header.html"); 
+        // $("#header").load("includes/header.html"); 
         $("#footer").load("includes/footer.html"); 
       });
     </script>
 
   </head>
   <body>
-    <div id="header"></div>
+    <!-- <div id="header"></div> -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsed-bar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Quilt</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="collapsed-bar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="about.html">About</a></li>
+            <li><a href="https://www.github.com/netSys/quilt"><i class="fa fa-github" aria-hidden="true"></i> Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <div class="landing">
       <div class="container">
@@ -39,17 +61,17 @@
           <div class="details">
             <div class="col-xs-12 col-sm-4 info">
               <h3>Infrastructure with JavaScript</h3>
-              Build infrastructure like you write code.
+              Build infrastructure like you write code. Structure, version, and develop infrastructure as you do with applications.
             </div>
 
             <div class="col-xs-12 col-sm-4 info">
               <h3>Share and Reuse</h3>
-              Share and import microservices like you do with software libraries.
+              Import any Quilt specifications from GitHub and compose them to create your own infrastructure. No need to reimplement services that have been deployed thousands of times already.
             </div>
 
             <div class="col-xs-12 col-sm-4 info">
-              <h3>Develop Services Independently</h3>
-              Develop each subsystem (e.g. MongoDB or ElasticSearch) as a separate JavaScript module.
+              <h3>Be Explicit</h3>
+              Expose microservices and subsystems through APIs that explicitly tell the users and colleagues about dependencies, configuration parameters, and guarantees.
             </div>
 
 
