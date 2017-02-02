@@ -2,13 +2,6 @@
   font-family:'Open Sans';
 }
 
-@media (min-width: 701px) {
-	.big-title h1 {
-		font-family: 'Molengo';
-		font-size: 12em;
-	}
-}
-
 .big-title h1 {
 	font-family: 'Molengo';
 	font-size: 9em;
@@ -62,4 +55,11 @@ h3 {
 	background-color: white;
 	border-color: white;
   	box-shadow: none;
+}
+
+@media (min-width: 701px) {
+	.big-title h1 {
+		font-family: 'Molengo';
+		font-size: 12em;
+	}
 }
