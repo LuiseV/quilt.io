@@ -4,7 +4,7 @@
 
 .big-title h1 {
 	font-family: 'Molengo';
-	font-size: 9em;
+	font-size: 7em;
 }
 
 body {
@@ -57,7 +57,15 @@ h3 {
   	box-shadow: none;
 }
 
-@media (min-width: 701px) {
+@media (min-width: 600px) {
+	.big-title h1 {
+		font-family: 'Molengo';
+		font-size: 10em;
+	}
+}
+
+
+@media (min-width: 768px) {
 	.big-title h1 {
 		font-family: 'Molengo';
 		font-size: 12em;
