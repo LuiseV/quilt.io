@@ -1,3 +1,3 @@
-FROM quilt/nginx
+FROM php:7.0-apache
 
-COPY src/ /usr/share/nginx/html/
+COPY src/ /var/www/html/
