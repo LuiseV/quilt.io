@@ -15,8 +15,8 @@
           <div class="big-title">
             <h1>Quilt</h1>
           </div>
-          <div class="description col-xs-12 col-sm-6">
-            Build, deploy, and manage microservices with Javascript.
+          <div class="description col-xs-12">
+            Deploy and manage microservices with JavaScript.
           </div>
         </div>
 
