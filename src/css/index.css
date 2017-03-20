@@ -35,17 +35,22 @@ body {
 	color: #80bd9e;
 }
 
-.details .contact a {
+.details .info .contact a {
 	color: black;
 	text-decoration: none;
 }
 
-.details .contact a:hover {
+.details .info .contact a:hover {
 	font-weight: bold;
+	font-size: 1.05em;
 }
 
 .details .info {
 	font-size: 120%;
+}
+
+.details .info a {
+	color: #80bd9e;
 }
 
 .get-started {
@@ -54,6 +59,11 @@ body {
 
 .get-started-btn a {
 	color: white;
+	text-decoration: none;
+}
+
+.get-started-btn a:hover {
+	font-size: 1.1em;
 }
 
 h3 {
