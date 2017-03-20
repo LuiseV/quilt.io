@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Quilt: Javascript for Microservices</title>
+    <title>Quilt: JavaScript for Microservices</title>
     <meta charset="utf-8">
     <?php include('resources.html'); ?>
   </head>
