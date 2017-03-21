@@ -31,8 +31,13 @@ body {
 }
 
 .details .big-icon {
-	font-size: 8em;
+	margin-bottom: 0.1em;
+	font-size: 7em;
 	color: #80bd9e;
+}
+
+.details .info .contact p {
+	font-weight: bold;
 }
 
 .details .info .contact a {
@@ -75,10 +80,26 @@ h3 {
 	text-align: left;
 }
 
+.med-title h1 {
+	font-family: 'Molengo';
+	font-size: 6em;
+}
+
 .navbar-default {
 	background-color: white;
 	border-color: white;
   	box-shadow: none;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    margin-right: -4px;
 }
 
 @media (min-width: 600px) {
@@ -90,6 +111,15 @@ h3 {
 	.details .col-xs-12 {
 		margin-top: 3em;
 	}
+
+	.med-title h1 {
+		font-family: 'Molengo';
+		font-size: 8em;
+	}
+
+	.details .big-icon {
+		margin-top: 0.3em;
+	}
 }
 
 
@@ -97,5 +127,10 @@ h3 {
 	.big-title h1 {
 		font-family: 'Molengo';
 		font-size: 12em;
+	}
+
+	.med-title h1 {
+		font-family: 'Molengo';
+		font-size: 9em;
 	}
 }
