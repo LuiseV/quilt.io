@@ -21,7 +21,7 @@
 
       <div class="row row-centered">
         <div class="details">
-          <div class="col-xs-12 col-sm-4 col-md-3 col-centered info">
+          <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2 col-centered info">
             <div class="contact text-center">
               <a href="mailto:ethan@quilt.io?subject=Request to join Quilt's Slack">
                 <i class="fa fa-slack big-icon" aria-hidden="true"></i>
@@ -30,16 +30,7 @@
             </div>
           </div>
 
-          <div class="col-xs-12 col-sm-4 col-md-3 col-centered info">
-            <div class="contact text-center">
-              <a href="mailto:ethan@quilt.io">
-                <i class="fa fa-envelope-o big-icon" aria-hidden="true"></i>
-                <p>Email us</p>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-4 col-md-3 info col-centered">
+          <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2 info col-centered">
             <div class="contact text-center">
               <i class="fa fa-users big-icon" aria-hidden="true"></i>
               <p>Join the mailing lists</p>
@@ -48,6 +39,15 @@
               </a><br/>
               <a href="https://groups.google.com/a/quilt.io/forum/#!forum/discuss">
 		discuss@quilt.io
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2 col-centered info">
+            <div class="contact text-center">
+              <a href="mailto:ethan@quilt.io">
+                <i class="fa fa-envelope-o big-icon" aria-hidden="true"></i>
+                <p>Email us</p>
               </a>
             </div>
           </div>
