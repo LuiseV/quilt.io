@@ -10,7 +10,7 @@
     <?php include('header.html'); ?>
 
     <div class="container">
-      <div class="med-title">
+      <div class="big-title">
         <h1>Contact</h1>
       </div>
       <div class="row">
